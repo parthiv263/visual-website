@@ -1,15 +1,16 @@
 pannellum.viewer("panorama", {
     "type": "cubemap",
     "cubeMap": [
-        "images/pz.png",
-        "images/px.png",
-        "images/nz.png",
-        "images/nx.png",
-        "images/py.png",
-        "images/ny.png"
+        "images/pz.jpg",
+        "images/px.jpg",
+        "images/nz.jpg",
+        "images/nx.jpg",
+        "images/py.jpg",
+        "images/ny.jpg"
     ],
     "autoLoad": true,
-    "autoRotate": -2
+    "autoRotate": -2,
+    "showControls": false
 });
 
 
