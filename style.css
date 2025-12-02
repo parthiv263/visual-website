@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+#panorama {
+    width: 100vw;
+    height: 100vh;
+}
+
+.top-left-text {
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    z-index: 1000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(246, 255, 0);
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    z-index: 1000;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
+}
